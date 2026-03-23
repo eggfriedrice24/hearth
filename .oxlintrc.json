@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nicolo-ribaudo/oxc-project/refs/heads/nicolo/config-schema/npm/oxlint/configuration_schema.json",
+  "ignorePatterns": ["*.gen.ts"],
+  "rules": {
+    "unicorn/filename-case": [
+      "error",
+      {
+        "case": "kebabCase",
+        "ignore": ["README.md", "CLAUDE.md"]
+      }
+    ]
+  }
+}
